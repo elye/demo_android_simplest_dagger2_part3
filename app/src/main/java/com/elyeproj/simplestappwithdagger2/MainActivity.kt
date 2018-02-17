@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 open class Bag {
     @Provides @Choose(LOVE)
     open fun sayLoveDagger2(): Info {
-        return Info("I Love You")
+        return Info("Love Dagger 2")
     }
     @Provides @Choose(HELLO)
     open fun sayHelloDagger2(): Info {
