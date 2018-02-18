@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
 }
 
 @Module
-open class Bag {
+class Bag {
     @Provides @Choose(LOVE)
     open fun sayLoveDagger2(): Info {
         return Info("Love Dagger 2")
