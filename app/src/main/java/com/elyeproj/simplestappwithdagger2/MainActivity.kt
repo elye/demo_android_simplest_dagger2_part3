@@ -29,11 +29,11 @@ class MainActivity : AppCompatActivity() {
 @Module
 class Bag {
     @Provides @Choose(LOVE)
-    open fun sayLoveDagger2(): Info {
+    fun sayLoveDagger2(): Info {
         return Info("Love Dagger 2")
     }
     @Provides @Choose(HELLO)
-    open fun sayHelloDagger2(): Info {
+    fun sayHelloDagger2(): Info {
         return Info("Hello Dagger 2")
     }
 }
